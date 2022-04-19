@@ -1,0 +1,23 @@
+{
+  "name": "twitter-profile-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vajaharish778/Twitter-Profile-Card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vajaharish778/Twitter-Profile-Card/issues"
+  },
+  "homepage": "https://github.com/vajaharish778/Twitter-Profile-Card#readme",
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}
