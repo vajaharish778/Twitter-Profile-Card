@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+body {
+  background: #f3f3f3;
+}
+
+/* Heading */
+
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 94.9593px;
+  line-height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+
+  padding-top: 83px;
+
+  background: linear-gradient(180deg, #ff566a 0%, #7c86ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Main Content */
+
+.light-version {
+  border: 1px solid #ffffff;
+
+  height: 621px;
+  width: 721.78px;
+  /* background: #ffffff; */
+  background: #1f2937;
+  border-radius: 21.79px;
+  margin: 72.04px auto 141px auto;
+}
+
+.twitter-icon {
+  height: 35.97px;
+  width: 44.29px;
+
+  margin-left: 644.92px;
+  /* margin-top: 380.04px; */
+}
+
+/* Top Section */
+
+.top-section {
+  width: 612.89px;
+  height: 107.19px;
+
+  margin: 62.9px auto auto auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  width: 107.19px;
+  height: 107.19px;
+
+  border: 2 solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 50%;
+
+  /* border: 1.01124px solid #000000;
+  border-radius: 50%;
+  box-sizing: border-box; */
+
+  /* border: 2.02247px solid #000000;
+  box-sizing: border-box;
+  border-radius: 50%; */
+}
+
+.avatar-img {
+  width: 107.19px;
+  height: 107.19px;
+  border-radius: 50%;
+
+  border: 1.01124px solid #000000;
+  box-sizing: border-box;
+}
+
+.name-handle {
+  width: auto;
+  height: 98.56px;
+
+  margin-left: 21.26px;
+}
+
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40.8553px;
+  line-height: 49px;
+
+  /* color: #000000; */
+  color: #ffffff;
+}
+
+.handle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32.6842px;
+  line-height: 40px;
+  margin-top: 9.56px;
+  /* identical to box height */
+
+  /* color: #6b7280; */
+  color: #8a97a3;
+}
+
+/* Description */
+
+.description {
+  width: 612.83px;
+  height: 80px;
+  margin: 46.17px auto auto auto;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24.5132px;
+  line-height: 40px;
+  color: #e5e5e5;
+  /* color: #000000; */
+}
+
+.description span {
+  font-family: "Inter";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24.5132px;
+  line-height: 40px;
+}
+
+/* Stats */
+
+.stats {
+  width: 506.67px;
+  height: 214.38px;
+  margin-top: 49.12px;
+  margin-left: 54.92px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.7895px;
+  line-height: 26px;
+
+  color: #66757f;
+}
+
+.count {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 49.0263px;
+  line-height: 59px;
+
+  /* color: #292f33; */
+  color: #ffffff;
+}
+
+.mode {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.light-mode-icon {
+  height: 70px;
+  width: 70px;
+}
+
+.dark-mode-icon {
+  height: 70px;
+  width: 70px;
+}

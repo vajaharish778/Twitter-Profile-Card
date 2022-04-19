@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Profile Card</title>
+    <link href="./reset.css" rel="stylesheet" type="text/css" />
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Profile Card</h1>
+    <div class="mode">
+      <img
+        onclick="changeModeLight(event)"
+        class="light-mode-icon"
+        src="./icons/Light Mode Icon.svg"
+        alt="Light Mode Icon"
+      />
+      <img
+        onclick="changeModeDark(event)"
+        class="dark-mode-icon"
+        src="./icons/Dark Mode Icon.svg"
+        alt="Dark Mode Icon"
+      />
+    </div>
+
+    <section class="light-version" id="light-version">
+      <div class="top-section">
+        <div class="avatar">
+          <img src="./icons/profile.jpg" class="avatar-img" />
+        </div>
+        <div class="name-handle">
+          <h2 class="name" id="name">Vaja Harish</h2>
+          <h3 class="handle" id="handle">@Harish9093</h3>
+        </div>
+      </div>
+      <div class="description" id="description">
+        <p>
+          I'm a student specializing in Web Devlopment.<span>
+            HTML | CSS | JavaScript | React
+          </span>
+        </p>
+      </div>
+      <div class="stats">
+        <div class="statistics">
+          <div class="label">Tweets</div>
+          <div class="count" id="count1">0</div>
+        </div>
+        <div class="statistics">
+          <div class="label">Tweet Impressions</div>
+          <div class="count" id="count2">0</div>
+        </div>
+        <div class="statistics">
+          <div class="label">Profile Visits</div>
+          <div class="count" id="count3">0</div>
+        </div>
+        <div class="statistics">
+          <div class="label">Mentions</div>
+          <div class="count" id="count4">0</div>
+        </div>
+      </div>
+      <img
+        src="./icons/Twitter Icon.svg"
+        class="twitter-icon"
+        alt="Twitter Icon"
+      />
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
